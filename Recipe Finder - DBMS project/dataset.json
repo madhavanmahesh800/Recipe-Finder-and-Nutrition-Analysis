@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Apam balik",
+      "calories": 250,
+      "fat": 12,
+      "carbs": 10,
+      "protein": 25
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "calories": 200,
+      "fat": 8,
+      "carbs": 15,
+      "protein": 10
+    },
+    {
+      "name": "Pasta Carbonara",
+      "calories": 400,
+      "fat": 20,
+      "carbs": 30,
+      "protein": 15
+    },
+    {
+      "name": "Grilled Salmon",
+      "calories": 300,
+      "fat": 18,
+      "carbs": 5,
+      "protein": 30
+    },
+    {
+      "name": "Fruit Salad",
+      "calories": 150,
+      "fat": 2,
+      "carbs": 40,
+      "protein": 2
+    }
+]

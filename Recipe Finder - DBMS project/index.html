@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe.io - DBMS project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+  <link rel = "stylesheet" href = "style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap"
+  rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+</head>
+<body>
+  <nav>
+    <div class="nav-logo">
+        <div class="navv">
+            <a href="#">
+                <img src="LOGO.png">
+            </a>
+        </div>
+        <div class="Head">
+            <h1>Recipe.io</h1>
+        </div>
+    </div>
+    <ul class="nav-links">
+        <li class="link"><a href="#">Home</a></li>
+        <li id="link1" class="link"><a href="#">Pantry</a></li>
+        <li id="link2" class="link"><a href="#">About</a></li>
+        
+    </ul>
+    <div class="nav-actions">
+      <button class="btnn"><span class="blur"></span>Log in</button>
+      <button class="scanner-btn" title="Scan">
+        <i class="fas fa-qrcode"></i>
+      </button>
+    </div>
+
+</nav>
+  
+  <div class = "container">
+    <div class = "meal-wrapper">
+      
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals For Your Ingredients</h2>
+        <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+          <cite>- Jamie Oliver</cite>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+   
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="container">
+    <span class="blur"></span>
+<div class="column">
+    <div class="logo">
+        <img src="LOGO.png">
+    </div>
+        <p>
+            Thank you for Visiting Our Website 
+        </p>
+        <div class="socials">
+            <span class="blur"></span>
+            <span class="blur"></span>
+
+            
+           
+            <a href="#"><i class="ri-youtube-line"></i></a>
+            <a href="#"><i class="ri-linkedin-line"></i></a>
+            <a href="#"><i class="ri-mail-line"></i></a>
+        </div>
+</div>
+<div class="column">
+    <h4>Company</h4>
+    <a href="#">Business</a>
+    <a href="#">Partnership</a>
+    <a href="#"></a>
+
+</div>
+<div class="column">
+    <h4>About Us</h4>
+    <a href="#">Team</a>
+    <a href="#">Resources</a>
+    <a href="#">Sponsors</a>
+
+</div>
+<div class="column">
+    <h4><span class="blur"></span>Contact</h4>
+    <a href="#">Contact Us</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms & Conditions</a>
+
+</div>
+</footer>
+<div class="copyright">
+Copyright © DBMS PROJECT - BE CSE (AI & ML) ( 22N205 , 22N220 , 22N225 , 22N229) . All rights reserved.
+</div>
+
+
+
+  <script src = "script.js"></script>
+</body>
+</html>
